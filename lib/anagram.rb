@@ -9,7 +9,6 @@ class Anagram
     # split word into individual characters
     # start iteration
     # split each word in array into individual characters to compare with word characters
-
     def match(array_of_words)
         split_word = @word.split("")
         words_matched = []
