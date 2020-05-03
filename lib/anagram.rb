@@ -1,5 +1,3 @@
-require "pry"
-
 class Anagram
     attr_accessor :word
 
@@ -12,7 +10,6 @@ class Anagram
         racecar = []
         words.collect do |sword|
             abc = sword.split("").sort
-            # binding.pry
             if abc == word
                 racecar << sword
             end
